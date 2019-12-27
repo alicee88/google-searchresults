@@ -1,0 +1,351 @@
+.header {
+    flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  }
+
+  ul {
+      padding: 0;
+      list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .top-nav {
+      display: flex;
+      align-items: center;
+      padding: 10px 10px;
+  }
+
+  .top-sub-nav {
+      display: flex;
+      align-items: center;
+      margin-top: 0;
+      padding: 0 10px;
+  }
+
+  .center {
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .top-nav li {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    opacity: 0.75;
+    padding: 0 10px;
+   
+  }
+
+  .top-sub-nav a {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    opacity: 0.75;
+
+  }
+
+  .top-nav a:not(:last-child):not(.center) {
+    margin-right: 10px;
+  }
+  
+  .top-nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .top-sub-nav a {
+      padding: 15px 10px;
+      display: inline-block;
+      text-decoration: none;
+      color: black;
+  }
+
+  .top-sub-nav a:hover {
+    color: #1A73E8;
+  }
+
+  .search-result a {
+      text-decoration: none;
+  }
+
+  .search-result a:hover {
+      text-decoration: underline;
+  }
+
+  .search-link a {
+      text-decoration: none;
+      color: #006621;
+      font-size: 16px;
+  }
+
+  .search-link a:hover {
+    text-decoration: none;
+  }
+
+  #logo {
+      opacity: 1;
+  }
+
+  #searchbar {
+    width: 582px;
+    height: 45px;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  input {
+      border: none;
+      height: 40px;
+      width: 550px;
+  }
+
+  .all-selected {
+      border-bottom: 3px solid #1A73E8;
+      color: #1A73E8;
+  }
+
+  .hr-line {
+    margin: 0;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.content:not(.hr-line) {
+    flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    margin-left: 120px;
+    font-family: arial, sans-serif;
+    line-height: 1.2;
+    max-width: 50em;
+  }
+
+  #result-stats {
+    font-size: 13px;
+    color: #70757a;
+  }
+
+  .search-result {
+      font-size: 20px;
+      color: #1a0dab;
+      margin-bottom: 30px;
+  }
+
+  .search-text p {
+    color: #545454;
+    margin: 0;
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .people-ask:not(:first-child) {
+    border-radius: 8px;
+    border: 1px solid #dfe1e5;
+    margin-bottom: 10px;
+  }
+
+  .pa {
+    display: flex;
+    justify-content: space-between;
+    color: #222;
+    border-top: 1px solid #dfe1e5;
+    padding: 9px 9px;
+    
+  }
+
+  h2 {
+    margin: 0;
+    border: none;
+    font-weight: normal;
+    color: #222;
+    padding: 9px 0;
+    font-size: 20px;
+  }
+
+  .fa-angle-down {
+    color: #70757A;
+    }
+
+  .feedback {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3px;
+  }
+  
+  .feedback a {
+    color: #70757a;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  .videos {
+    display: flex;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+    max-width: 27%;
+    height: 250px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+
+  .videos a {
+    text-decoration: none;
+    color: #1a0dab;
+  }
+
+  .card-vid img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .card-link {
+    line-height: 1.375;
+    margin: 0;
+    padding: 0 16px;
+  }
+
+  .card-text {
+    font-weight: normal;
+    font-size: 14px;
+    color: #808080;
+    margin: 0;
+    padding: 0 16px;
+
+  }
+
+  .green-link {
+    color: #006621;
+  }
+
+  .card-footer {
+    font-size: 12px;
+    color: #808080;
+    margin: 0;
+    padding: 0 16px;
+
+  }
+
+  .related-searches {
+    display: flex;
+    margin-bottom: 15px;
+  }
+
+  .related-searches-box {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .related-searches-box a {
+    color: #1a0dab;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: bold;
+  }
+
+  .related-searches-box a:hover {
+    text-decoration: underline;
+  }
+
+  .google-search-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fa-angle-right {
+    padding-left: 15px;
+    color: #4285f4;
+  }
+
+  .search-numbers-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .search-numbers {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .search-numbers a {
+    color: #4285f4;
+    font-size: 14px;
+    margin: 0 8px;
+  }
+
+  .search-numbers span {
+    font-size: 14px;
+    margin: 0 8px;
+  }
+
+  .search-next a {
+    color: #4285f4;
+    font-size: 14px;
+    margin-left: 30px;
+  }
+
+.search-next {
+    align-self: flex-end;
+}
+
+.hr-footer {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+footer {
+  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  padding: 20px;
+  font-size: 14px;
+  color: rgba(0,0,0,.54);
+  font-family: arial, sans-serif;
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  background: #f2f2f2;
+  padding-top: 0;
+}
+
+.nav-bottom a {
+  color: rgba(0,0,0,.54);
+  margin: 0 15px;
+}
+
+
+.nav-bottom {
+  padding-left: 90px;
+}
+
+.nav-location {
+  display: flex;
+  align-items: center;
+}
+
+.nav-location a {
+  color: rgba(0,0,0,.54);
+  margin: 0 2px;
+}
+
+.location-UK {
+  padding-left: 105px;
+}
+
+.location-Ely {
+  color: #222;
+  margin: 0 20px;
+}
